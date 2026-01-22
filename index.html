@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="pageStyle/homePage.css" />
+</head>
+<body>
+     <!-- Joke Section  -->
+  <section class="joke-container">
+    <p id="joke">Loading a funny joke for you...</p>
+  </section>
+
+  <!-- Main App -->
+  <div class="app-container">
+    <h1 class = "heading">My Task Manager</h1>
+
+    <!-- Task Input -->
+     <h4>Enter Task :</h4>
+    <div class="task-input">
+         <input type="text" id="taskInput" placeholder="Enter your task..." />
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+
+    <!-- Progress Section -->
+    <div class="progress">
+      <div>
+        <span>Total Tasks</span>
+        <strong id="totalTasks">0</strong>
+      </div>
+      <div>
+        <span>Completed</span>
+        <strong id="completedTasks">0</strong>
+      </div>
+    </div>
+
+    <!-- Task List -->
+    <ul id="taskList" class="task-list">
+      </ul>
+       <p id="Message" class="message">
+          No Any Task Added Yet !
+</p>
+
+</div>
+
+  <script src="homePage/homePage.js"></script>
+    
+</body>
+</html>
