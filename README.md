@@ -32,4 +32,4 @@ This application allows users to manage daily tasks efficiently and also display
 3. Open `index.html` in any modern web browser
 4. Start adding your tasks
 
-_No additional setup required._
+live here ===> https://divya-todo-web.netlify.app/
